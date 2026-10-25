@@ -1,0 +1,16 @@
+import kotlin.math.abs
+
+fun main() {
+    print("Digite um número: ")
+    val numero = readln().toDouble()
+
+    if (numero > 0.0) {
+        val inverso = 1.0 / numero
+        println("\nInverso: $inverso")
+    } else {
+        val absoluto = abs(numero)
+        println("\nAbsoluto: $absoluto")
+    }
+
+    println()
+}
