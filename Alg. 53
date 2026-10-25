@@ -1,0 +1,17 @@
+import kotlin.math.sqrt
+
+fun main() {
+    print("\nEntre com a base: ")
+    val a = readln().toDouble()
+
+    print("\nEntre com a altura: ")
+    val b = readln().toDouble()
+
+    print("\nEntre com a profundidade: ")
+    val c = readln().toDouble()
+
+    val diagonal = sqrt(a * a + b * b + c * c)
+
+    println("\nDiagonal: $diagonal")
+    println()
+}
