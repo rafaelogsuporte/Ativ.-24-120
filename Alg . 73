@@ -1,0 +1,16 @@
+import kotlin.math.floor
+import kotlin.math.round
+
+fun main() {
+    print("\nEntre com um número com parte fracionária: ")
+    val num = readln().toDouble()
+
+    val numi = floor(num - 0.5).toInt()
+    val numfrac = num - numi
+    val numa = floor(num + 0.5 + 0.00001).toInt()
+
+    println("\nParte inteira: $numi")
+    println("Parte fracionária: %.3f".format(numfrac + 0.00001))
+    println("Número arredondado: $numa")
+    println()
+}
