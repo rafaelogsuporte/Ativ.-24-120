@@ -1,0 +1,19 @@
+fun main() {
+    print("\nQual a capital do Brasil? ")
+    val resp = readln()
+
+    if (resp == "BRASÍLIA" || resp == "Brasília") {
+        println("\nPARABÉNS!")
+    } else if (
+        resp == "brasília" ||
+        resp == "BRASÍLIA" ||
+        resp == "Brazília" ||
+        resp == "brazília"
+    ) {
+        println("\nCERTO! Mas atenção para a grafia: Brasília ou BRASÍLIA.")
+    } else {
+        println("\nERRADO! ESTUDE MAIS!")
+    }
+
+    println()
+}
