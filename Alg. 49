@@ -1,0 +1,15 @@
+fun main() {
+    print("\nEntre com o nome: ")
+    val nome = readln()
+
+    println("\nTodo nome: $nome")
+    println("Primeiro caractere: ${nome.firstOrNull() ?: ""}")
+    println("Último caractere: ${nome.lastOrNull() ?: ""}")
+    println("Primeiro ao terceiro caractere: ${nome.take(3)}")
+    println("Quarto caractere: ${nome.getOrNull(3) ?: ""}")
+    println("Todos menos o primeiro: ${nome.drop(1)}")
+
+    val n = nome.length - 2
+    println("Os dois últimos: ${nome.takeLast(2)}")
+    println()
+}
