@@ -1,0 +1,17 @@
+fun main() {
+    print("\nEntre com o salário mínimo: ")
+    val salmin = readln().toDouble()
+
+    print("\nEntre com o salário da pessoa: ")
+    val salpe = readln().toDouble()
+
+    if (salmin > 0) {
+        val num = salpe / salmin
+
+        println("\nA pessoa ganha %.2f salários mínimos".format(num))
+    } else {
+        println("\nErro: o salário mínimo deve ser maior que zero.")
+    }
+
+    println()
+}
