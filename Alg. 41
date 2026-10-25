@@ -1,0 +1,18 @@
+fun main() {
+    print("\nEntre com a 1ª nota: ")
+    val a = readln().toDouble()
+
+    print("\nEntre com a 2ª nota: ")
+    val b = readln().toDouble()
+
+    print("\nEntre com a 3ª nota: ")
+    val c = readln().toDouble()
+
+    print("\nEntre com a 4ª nota: ")
+    val d = readln().toDouble()
+
+    val mp = (a * 1 + b * 2 + c * 3 + d * 4) / 10
+
+    println("\nMédia ponderada: $mp")
+    println()
+}
