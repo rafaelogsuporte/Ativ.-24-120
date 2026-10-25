@@ -1,0 +1,12 @@
+fun main() {
+    print("\nEntre com um numero: ")
+    val num1 = readln().toInt()
+
+    print("\nEntre com outro numero: ")
+    val num2 = readln().toInt()
+
+    val prod = num1 * num2
+
+    println("\nProduto: $prod")
+    println()
+}
