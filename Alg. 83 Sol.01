@@ -1,0 +1,14 @@
+fun main() {
+    print("Digite um número: ")
+    val numero = readln().toDouble()
+
+    if (numero > 0.0) {
+        val inverso = 1 / numero
+        println("\nInverso: $inverso")
+    } else {
+        val absoluto = numero * -1
+        println("\nAbsoluto: $absoluto")
+    }
+
+    println()
+}
