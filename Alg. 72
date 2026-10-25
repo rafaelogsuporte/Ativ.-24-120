@@ -1,0 +1,14 @@
+fun main() {
+    print("\nEntre com o depósito: ")
+    val deposito = readln().toDouble()
+
+    print("\nEntre com a taxa de juros (%): ")
+    val taxa = readln().toDouble()
+
+    val valor = deposito * taxa / 100
+    val total = deposito + valor
+
+    println("\nRendimentos: %.2f".format(valor))
+    println("Total: %.2f".format(total))
+    println()
+}
