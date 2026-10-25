@@ -1,0 +1,12 @@
+fun main() {
+    print("\nEntre com a base: ")
+    val a = readln().toDouble()
+
+    print("\nEntre com a altura do triângulo: ")
+    val b = readln().toDouble()
+
+    val area = (a * b) / 2
+
+    println("\nÁrea = $area")
+    println()
+}
