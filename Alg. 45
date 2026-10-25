@@ -1,0 +1,14 @@
+import kotlin.math.sqrt
+
+fun main() {
+    print("\nDigite um número: ")
+    val num = readln().toDouble()
+
+    val quad = num * num
+    val raizquad = sqrt(num)
+
+    println("\nNúmero: $num")
+    println("Quadrado: $quad")
+    println("Raiz quadrada: $raizquad")
+    println()
+}
