@@ -1,0 +1,17 @@
+fun main() {
+    print("\nDigite o 1º número: ")
+    val num1 = readln().toDouble()
+
+    print("\nDigite o 2º número: ")
+    val num2 = readln().toDouble()
+
+    val soma = num1 + num2
+
+    if (soma > 20.0) {
+        println("\nSoma: ${soma + 8}")
+    } else {
+        println("\nSoma: ${soma - 5}")
+    }
+
+    println()
+}
