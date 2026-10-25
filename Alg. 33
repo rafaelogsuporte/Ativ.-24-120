@@ -1,0 +1,11 @@
+fun main() {
+    print("\nEntre com um numero: ")
+    val num1 = readln().toInt()
+
+    print("\nEntre com outro numero: ")
+    val num2 = readln().toInt()
+
+    println("\nNumero 1: $num1")
+    println("\nNumero 2: $num2")
+    println()
+}
