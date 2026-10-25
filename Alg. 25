@@ -1,0 +1,11 @@
+fun main() {
+    var a: Int
+    var d: Int
+
+    print("\nDigite numero de tres casas: ")
+    a = readln().toInt()
+
+    d = (a / 10) % 10
+
+    println("\nalgarismo da casa das dezenas: $d")
+    println()
