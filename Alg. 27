@@ -1,0 +1,19 @@
+fun main() {
+    var x: Int
+    var y: Int
+
+    x = 2
+    y = 5
+
+    println("\nx = $x")
+
+    x++
+
+    println("\n\ny = $y")
+
+    y--
+
+    println("\n\nnovo valor de x = $x")
+    println("\n\nnovo valor de y = $y")
+    println("\n\n")
+}
