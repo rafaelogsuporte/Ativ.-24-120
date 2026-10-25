@@ -1,0 +1,18 @@
+import kotlin.math.sqrt
+
+fun main() {
+    print("\nDigite a base: ")
+    val base = readln().toDouble()
+
+    print("\nDigite a altura: ")
+    val altura = readln().toDouble()
+
+    val perimetro = 2 * (base + altura)
+    val area = base * altura
+    val diagonal = sqrt(base * base + altura * altura)
+
+    println("\nPerímetro = $perimetro")
+    println("Área = $area")
+    println("Diagonal = $diagonal")
+    println()
+}
