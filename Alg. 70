@@ -1,0 +1,9 @@
+fun main() {
+    print("\nEntre com o valor da conta: ")
+    val cres = readln().toDouble()
+
+    val cgorj = cres * 1.1
+
+    println("\nO valor da conta com a gorjeta será: %.2f".format(cgorj))
+    println()
+}
