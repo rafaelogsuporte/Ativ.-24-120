@@ -1,0 +1,9 @@
+fun main() {
+    print("\nDigite a temperatura em graus Celsius: ")
+    val c = readln().toDouble()
+
+    val f = (9 * c + 160) / 5
+
+    println("\nA temperatura em graus Fahrenheit é = $f")
+    println()
+}
