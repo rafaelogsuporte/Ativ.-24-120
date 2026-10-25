@@ -1,0 +1,7 @@
+fun main() {
+    print("\nEntre com um numero com ponto: ")
+    val num = readln().toDouble()
+
+    println("\nA terça parte é: ${num / 3}")
+    println()
+}
