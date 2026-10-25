@@ -1,0 +1,14 @@
+import kotlin.math.sqrt
+
+fun main() {
+    print("\nEntrar com o 1º cateto: ")
+    val b = readln().toDouble()
+
+    print("\nEntrar com o 2º cateto: ")
+    val c = readln().toDouble()
+
+    val a = sqrt(b * b + c * c)
+
+    println("\nA hipotenusa é $a")
+    println()
+}
