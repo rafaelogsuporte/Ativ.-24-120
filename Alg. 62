@@ -1,0 +1,9 @@
+fun main() {
+    print("\nDigite o valor do produto: ")
+    val preco = readln().toDouble()
+
+    val npreco = preco * 0.91
+
+    println("\nPreço com desconto: $npreco")
+    println()
+}
