@@ -1,0 +1,16 @@
+fun main() {
+    print("\nDigite o numerador: ")
+    val num = readln().toInt()
+
+    print("\nDigite o denominador: ")
+    val denom = readln().toInt()
+
+    if (denom != 0) {
+        val decimal = num.toDouble() / denom
+        println("\nDecimal: $decimal")
+    } else {
+        println("\nErro: o denominador não pode ser zero.")
+    }
+
+    println()
+}
