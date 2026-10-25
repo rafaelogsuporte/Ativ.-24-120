@@ -1,0 +1,29 @@
+fun main() {
+    print("\nDigite o 1º número: ")
+    val a = readln().toDouble()
+
+    print("\nDigite o 2º número: ")
+    val b = readln().toDouble()
+
+    print("\nDigite o 3º número: ")
+    val c = readln().toDouble()
+
+    val max: Double
+
+    if (a > b) {
+        if (a > c) {
+            max = a
+        } else {
+            max = c
+        }
+    } else {
+        if (b > c) {
+            max = b
+        } else {
+            max = c
+        }
+    }
+
+    println("\nMaior número: $max")
+    println()
+}
