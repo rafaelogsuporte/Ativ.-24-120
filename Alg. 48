@@ -1,0 +1,19 @@
+fun main() {
+    print("\nEntre com o salário mínimo: ")
+    val sm = readln().toDouble()
+
+    print("\nEntre com a quantidade em quilowatts: ")
+    val qtdade = readln().toDouble()
+
+    // Divide por 7 para achar o preço de 100 kW
+    // e por 100 para achar o preço de 1 kW.
+    val preco = sm / 7 / 100
+
+    val vp = preco * qtdade
+    val vd = vp * 0.9
+
+    println("\nPreço do quilowatt: $preco")
+    println("Valor a ser pago: $vp")
+    println("Valor com desconto: $vd")
+    println()
+}
