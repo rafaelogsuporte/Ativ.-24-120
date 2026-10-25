@@ -1,0 +1,11 @@
+fun main() {
+    print("\nEntre com seu peso, somente a parte inteira (em kg): ")
+    val peso = readln().toInt()
+
+    val pesogramas = peso * 1000
+    val novopeso = pesogramas * 1.12
+
+    println("\nPeso em gramas: $pesogramas")
+    println("Novo peso: ${novopeso.toInt()} gramas")
+    println()
+}
