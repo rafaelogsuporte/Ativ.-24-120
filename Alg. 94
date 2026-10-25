@@ -1,0 +1,12 @@
+fun main() {
+    print("\nDigite um número: ")
+    val numero = readln().toInt()
+
+    if (numero % 3 == 0) {
+        println("\nMúltiplo de 3")
+    } else {
+        println("\nNão é múltiplo de 3")
+    }
+
+    println()
+}
