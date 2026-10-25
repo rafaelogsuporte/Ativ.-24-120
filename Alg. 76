@@ -1,0 +1,7 @@
+fun main() {
+    print("\nDigite um número: ")
+    val num = readln().toInt()
+
+    println("\nSucessor: ${(num + 1) % 61}")
+    println()
+}
