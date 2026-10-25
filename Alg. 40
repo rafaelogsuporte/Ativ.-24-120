@@ -1,0 +1,17 @@
+fun main() {
+    print("\nEntre com o dividendo: ")
+    val val1 = readln().toInt()
+
+    print("\nEntre com o divisor: ")
+    val val2 = readln().toInt()
+
+    val quoc = val1 / val2
+    val rest = val1 % val2
+
+    println("\n\n\n")
+    println("Dividendo: $val1")
+    println("Divisor: $val2")
+    println("Quociente: $quoc")
+    println("Resto: $rest")
+    println()
+}
