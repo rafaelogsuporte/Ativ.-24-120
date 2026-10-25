@@ -1,0 +1,9 @@
+fun main() {
+    print("\nDigite o saldo: ")
+    val saldo = readln().toDouble()
+
+    val nsaldo = saldo * 1.01
+
+    println("\nNovo saldo: $nsaldo")
+    println()
+}
