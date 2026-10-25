@@ -1,0 +1,12 @@
+fun main() {
+    print("\nDigite um número: ")
+    val a = readln().toInt()
+
+    if (a % 2 == 0) {
+        println("\nPAR")
+    } else {
+        println("\nÍMPAR")
+    }
+
+    println()
+}
