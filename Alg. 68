@@ -1,0 +1,15 @@
+fun main() {
+    print("\nDigite o 1º número com ponto: ")
+    var a = readln().toDouble()
+
+    print("\nDigite o 2º número com ponto: ")
+    var b = readln().toDouble()
+
+    val aux = a
+    a = b
+    b = aux
+
+    println("\na = $a")
+    println("b = $b")
+    println()
+}
