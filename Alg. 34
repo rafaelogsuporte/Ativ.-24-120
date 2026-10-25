@@ -1,0 +1,11 @@
+fun main() {
+    print("\nEntre com um numero: ")
+    val numero = readln().toInt()
+
+    val ant = numero - 1
+    val suc = numero + 1
+
+    println("\nO sucessor é: $suc")
+    println("O antecessor é: $ant")
+    println()
+}
