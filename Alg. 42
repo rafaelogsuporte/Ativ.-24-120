@@ -1,0 +1,19 @@
+import kotlin.math.PI
+import kotlin.math.sin
+import kotlin.math.cos
+import kotlin.math.tan
+
+fun main() {
+    print("\nDigite um angulo em graus: ")
+    val angulo = readln().toDouble()
+
+    val rang = angulo * PI / 180
+
+    println("\nSeno: ${sin(rang)}")
+    println("Co-seno: ${cos(rang)}")
+    println("Tangente: ${tan(rang)}")
+    println("Co-secante: ${1 / sin(rang)}")
+    println("Secante: ${1 / cos(rang)}")
+    println("Cotangente: ${1 / tan(rang)}")
+    println()
+}
