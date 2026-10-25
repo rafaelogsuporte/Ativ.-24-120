@@ -1,0 +1,12 @@
+fun main() {
+    print("\nEntre com a hora atual: ")
+    val hora = readln().toInt()
+
+    print("\nEntre com os minutos: ")
+    val minuto = readln().toInt()
+
+    val tminuto = hora * 60 + minuto
+
+    println("\nAté agora se passaram: $tminuto minutos")
+    println()
+}
