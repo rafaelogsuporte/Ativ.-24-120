@@ -1,0 +1,12 @@
+fun main() {
+    print("\nMedida da diagonal maior: ")
+    val diagmaior = readln().toDouble()
+
+    print("\nMedida da diagonal menor: ")
+    val diagmenor = readln().toDouble()
+
+    val area = (diagmaior * diagmenor) / 2
+
+    println("\nÁrea = $area")
+    println()
+}
