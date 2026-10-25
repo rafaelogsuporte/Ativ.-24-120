@@ -1,0 +1,13 @@
+import kotlin.math.PI
+
+fun main() {
+    print("\nDigite o raio: ")
+    val raio = readln().toDouble()
+
+    val perimetro = 2 * PI * raio
+    val area = PI * raio * raio
+
+    println("\nPerímetro: $perimetro")
+    println("Área: $area")
+    println()
+}
