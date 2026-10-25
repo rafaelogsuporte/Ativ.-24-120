@@ -1,0 +1,13 @@
+Transforme em kotlin:
+
+prog lea3O
+real pri, pr2, mf;
+imprima "\ndigite pri:
+leia pri;
+imprima "\ndigite pr2:
+leia pr2;
+mf <- ( pri + pr2 ) / 2;
+imprima "\nmedia truncada = , realint((mf- 0.5)+0.001);
+imprima "\nmedia arredondada = ", realint( mf+0.001);
+imprima 11\n";
+fimprog
