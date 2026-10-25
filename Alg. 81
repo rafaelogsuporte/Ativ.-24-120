@@ -1,0 +1,20 @@
+fun main() {
+    print("\nDigite uma conta de três dígitos: ")
+    val conta = readln().toInt()
+
+    val d1 = conta / 100
+    val d2 = (conta % 100) / 10
+    val d3 = conta % 10
+
+    val inv = d3 * 100 + d2 * 10 + d1
+    val soma = conta + inv
+
+    val dig1 = (soma / 100) * 1
+    val dig2 = ((soma % 100) / 10) * 2
+    val dig3 = (soma % 10) * 3
+
+    val digito = (dig1 + dig2 + dig3) % 10
+
+    println("\nDígito verificador: $digito")
+    println()
+}
