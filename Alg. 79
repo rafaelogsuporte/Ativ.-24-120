@@ -1,0 +1,22 @@
+import kotlin.math.pow
+
+fun main() {
+    print("\nDigite o valor da aplicação: ")
+    val p = readln().toDouble()
+
+    print("\nDigite a taxa de juros (0 - 1): ")
+    val i = readln().toDouble()
+
+    print("\nDigite o número de meses: ")
+    val n = readln().toInt()
+
+    if (i != 0.0) {
+        val va = p * ((1 + i).pow(n) - 1) / i
+
+        println("\nO valor acumulado: %.2f".format(va))
+    } else {
+        println("\nErro: a taxa de juros não pode ser zero.")
+    }
+
+    println()
+}
