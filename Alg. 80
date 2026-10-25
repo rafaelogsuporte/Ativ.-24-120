@@ -1,0 +1,18 @@
+fun main() {
+    print("\nDigite a quantidade de fitas: ")
+    val quant = readln().toInt()
+
+    print("\nDigite o valor do aluguel: ")
+    val valAluguel = readln().toDouble()
+
+    val fatAnual = (quant / 3.0) * valAluguel * 12
+    println("\nFaturamento anual: %.2f".format(fatAnual))
+
+    val multas = valAluguel * 0.1 * (quant / 3.0) / 10
+    println("\nMultas mensais: %.2f".format(multas))
+
+    val quantFinal = quant - quant * 0.02 + quant / 10.0
+    println("\nQuantidade de fitas no final do ano: %.2f".format(quantFinal))
+
+    println()
+}
