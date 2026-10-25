@@ -1,0 +1,11 @@
+import kotlin.math.ln
+
+fun main() {
+    print("\nEntre com o logaritmando: ")
+    val num = readln().toDouble()
+
+    val logaritmo = ln(num) / ln(10.0)
+
+    println("\nLogaritmo: $logaritmo")
+    println()
+}
