@@ -1,0 +1,10 @@
+fun main() {
+    print("\nDigite um número: ")
+    val numero = readln().toDouble()
+
+    if (numero > 20.0) {
+        println(numero)
+    }
+
+    println()
+}
