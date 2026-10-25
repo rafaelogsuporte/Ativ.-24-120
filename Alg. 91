@@ -1,0 +1,15 @@
+fun main() {
+    print("\nDigite o 1º número: ")
+    val num1 = readln().toInt()
+
+    print("\nDigite o 2º número: ")
+    val num2 = readln().toInt()
+
+    val soma = num1 + num2
+
+    if (soma > 10) {
+        println("\nSoma: $soma")
+    }
+
+    println()
+}
