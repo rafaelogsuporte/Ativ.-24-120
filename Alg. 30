@@ -1,0 +1,8 @@
+fun main() {
+    val produto: Int
+
+    produto = 28 * 43
+
+    println("\nO produto entre os dois é: $produto")
+    println()
+}
