@@ -1,0 +1,22 @@
+fun main() {
+    var data: Int
+    var dia: Int
+    var mes: Int
+    var ano: Int
+    var ndata: Int
+
+    print("\nDigite data no formato DDMMAA: ")
+    data = readln().toInt()
+
+    dia = data / 10000
+    mes = (data % 10000) / 100
+    ano = data % 100
+
+    ndata = mes * 10000 + dia * 100 + ano
+
+    println("\nDIA: $dia")
+    println("MES: $mes")
+    println("ANO: $ano")
+    println("\nDATA NO FORMATO MMDDAA: $ndata")
+    println()
+}
