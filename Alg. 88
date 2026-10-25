@@ -1,0 +1,38 @@
+fun main() {
+    println("\n\t\t*************")
+    println("\t\t* CALCULADORA *")
+    println("\t\t*************")
+
+    println("\n\t\t+ para somar")
+    println("\t\t- para subtrair")
+    println("\t\t* para multiplicar")
+    println("\t\t/ para dividir")
+
+    print("\n\t\tDigite a opção: ")
+    val resp = readln()
+
+    if (resp == "+" || resp == "-" || resp == "*" || resp == "/") {
+        print("\nDigite o 1º número: ")
+        val a = readln().toDouble()
+
+        print("\nDigite o 2º número: ")
+        val b = readln().toDouble()
+
+        when (resp) {
+            "+" -> println("\nSOMA: ${a + b}")
+            "-" -> println("\nSUBTRAÇÃO: ${a - b}")
+            "*" -> println("\nMULTIPLICAÇÃO: ${a * b}")
+            "/" -> {
+                if (b != 0.0) {
+                    println("\nDIVISÃO: ${a / b}")
+                } else {
+                    println("\nERRO: não é possível dividir por zero!")
+                }
+            }
+        }
+    } else {
+        println("\nOPÇÃO NÃO DISPONÍVEL!")
+    }
+
+    println()
+}
