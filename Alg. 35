@@ -1,0 +1,16 @@
+fun main() {
+    print("\nEntre com nome: ")
+    val nome = readln()
+
+    print("\nEntre com endereco: ")
+    val endereco = readln()
+
+    print("\nEntre com telefone: ")
+    val telefone = readln()
+
+    println("\n\n\n")
+    println("Nome: $nome")
+    println("Endereco: $endereco")
+    println("Telefone: $telefone")
+    println()
+}
