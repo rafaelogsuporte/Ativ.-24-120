@@ -1,0 +1,17 @@
+fun main() {
+    print("\nHoras trabalhadas: ")
+    val na = readln().toInt()
+
+    print("\nValor da hora-aula: ")
+    val vha = readln().toDouble()
+
+    print("\nPercentual de desconto: ")
+    val pd = readln().toDouble()
+
+    val sb = na * vha
+    val td = (pd / 100) * sb
+    val sl = sb - td
+
+    println("\nSalário líquido: $sl")
+    println()
+}
