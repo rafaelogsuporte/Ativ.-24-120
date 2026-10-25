@@ -1,0 +1,12 @@
+fun main() {
+    print("\nDigite um número: ")
+    val numero = readln().toInt()
+
+    if (numero % 5 == 0) {
+        println("\nÉ divisível por 5")
+    } else {
+        println("\nNão é divisível por 5")
+    }
+
+    println()
+}
