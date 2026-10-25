@@ -1,0 +1,12 @@
+fun main() {
+    print("\nDigite a 1ª nota: ")
+    val nota1 = readln().toDouble()
+
+    print("\nDigite a 2ª nota: ")
+    val nota2 = readln().toDouble()
+
+    val media = (nota1 + nota2) / 2
+
+    println("\nMédia: $media")
+    println()
+}
