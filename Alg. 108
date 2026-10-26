@@ -1,0 +1,19 @@
+fun main() {
+    print("\nDigite o nome: ")
+    val nome = readln()
+
+    val prenome = nome.take(5)
+
+    if (
+        prenome == "JOSEb" ||
+        prenome == "Joseb" ||
+        prenome == "joseb" ||
+        nome == "josé" ||
+        nome == "José" ||
+        nome == "JOSÉ"
+    ) {
+        println("\n$nome")
+    }
+
+    println()
+}
