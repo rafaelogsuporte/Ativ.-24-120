@@ -1,0 +1,15 @@
+fun main() {
+    print("\nEntre com o ano atual: ")
+    val anoa = readln().toInt()
+
+    print("\nEntre com o ano de nascimento: ")
+    val anon = readln().toInt()
+
+    if (anon > anoa) {
+        println("\nAno de nascimento inválido")
+    } else {
+        println("\nIdade: ${anoa - anon}")
+    }
+
+    println()
+}
