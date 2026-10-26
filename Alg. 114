@@ -1,0 +1,15 @@
+fun main() {
+    print("\nDigite o 1º número: ")
+    val a = readln().toDouble()
+
+    print("\nDigite o 2º número: ")
+    val b = readln().toDouble()
+
+    if (a > b) {
+        println("\n$a, $b")
+    } else {
+        println("\n$b, $a")
+    }
+
+    println()
+}
