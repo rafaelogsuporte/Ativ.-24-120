@@ -1,0 +1,20 @@
+fun main() {
+    print("\nDigite a sigla do estado: ")
+    val sigla = readln()
+
+    if (sigla == "RJ" || sigla == "rj") {
+        println("\nCarioca")
+    } else {
+        if (sigla == "SP" || sigla == "sp") {
+            println("\nPaulista")
+        } else {
+            if (sigla == "MG" || sigla == "mg") {
+                println("\nMineiro")
+            } else {
+                println("\nOutros estados")
+            }
+        }
+    }
+
+    println()
+}
