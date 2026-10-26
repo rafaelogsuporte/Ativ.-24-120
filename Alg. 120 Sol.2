@@ -1,0 +1,38 @@
+fun main() {
+    print("\nDigite o 1º número: ")
+    var a = readln().toDouble()
+
+    print("\nDigite o 2º número: ")
+    var b = readln().toDouble()
+
+    print("\nDigite o 3º número: ")
+    var c = readln().toDouble()
+
+    var aux: Double
+
+    if (a > b) {
+        aux = a
+        a = b
+        b = aux
+    }
+
+    if (a > c) {
+        aux = a
+        a = c
+        c = aux
+    }
+
+    if (b > c) {
+        aux = b
+        b = c
+        c = aux
+    }
+
+    val maior = c
+    val intermediario = b
+    val menor = a
+
+    println("\nMaior: $maior")
+    println("Intermediário: $intermediario")
+    println("Menor: $menor")
+}
