@@ -1,0 +1,14 @@
+fun main() {
+    print("\nNúmero de 4 algarismos: ")
+    val num = readln().toInt()
+
+    val c = num / 100
+
+    if (c % 4 == 0) {
+        println("\nO número é múltiplo de 4: $c")
+    } else {
+        println("\nO número não é múltiplo de 4: $c")
+    }
+
+    println()
+}
