@@ -1,0 +1,18 @@
+fun main() {
+    print("\nDigite o nome: ")
+    val nome = readln()
+
+    print("\nDigite o sexo (F/M): ")
+    val sexo = readln()
+
+    print("\nDigite a idade: ")
+    val idade = readln().toInt()
+
+    if ((sexo == "F" || sexo == "f") && idade < 25) {
+        println("\n$nome ACEITA")
+    } else {
+        println("\n$nome NÃO ACEITA")
+    }
+
+    println()
+}
