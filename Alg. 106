@@ -1,0 +1,12 @@
+fun main() {
+    print("\nDigite o nome: ")
+    val nome = readln()
+
+    val letra = nome.firstOrNull()
+
+    if (letra == 'A' || letra == 'a') {
+        println("\n$nome")
+    }
+
+    println()
+}
