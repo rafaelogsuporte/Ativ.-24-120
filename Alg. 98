@@ -1,0 +1,15 @@
+fun main() {
+    print("\nDigite o salário: ")
+    val sb = readln().toDouble()
+
+    print("\nDigite o valor da prestação: ")
+    val vp = readln().toDouble()
+
+    if (vp <= 0.3 * sb) {
+        println("\nEmpréstimo concedido")
+    } else {
+        println("\nEmpréstimo negado")
+    }
+
+    println()
+}
