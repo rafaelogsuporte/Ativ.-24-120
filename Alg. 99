@@ -1,0 +1,13 @@
+Transforme em kotlin:
+
+prog selO
+int num, c;
+imprima "\nnumero de 3 algarismos: ";
+leia num;
+c <- num div 100;
+se( c % 2 == O )
+{imprima "\no algarismo das centenas e par: ",c;}
+senao
+{imprima " \no algarismo das centenas e impar: ",c;}
+imprima "\n";
+fimprog
