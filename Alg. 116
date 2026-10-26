@@ -1,0 +1,26 @@
+fun main() {
+    print("\nDigite o 1º número: ")
+    val a = readln().toDouble()
+
+    print("\nDigite o 2º número: ")
+    val b = readln().toDouble()
+
+    print("\nDigite o 3º número: ")
+    val c = readln().toDouble()
+
+    if (a > b) {
+        if (a > c) {
+            println("\nMaior: $a")
+        } else {
+            println("\nMaior: $c")
+        }
+    } else {
+        if (b > c) {
+            println("\nMaior: $b")
+        } else {
+            println("\nMaior: $c")
+        }
+    }
+
+    println()
+}
