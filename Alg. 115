@@ -1,0 +1,21 @@
+import kotlin.math.sqrt
+
+fun main() {
+    print("\nDigite o valor de x: ")
+    val x = readln().toDouble()
+
+    print("\nDigite o valor de y: ")
+    val y = readln().toDouble()
+
+    if (x > y) {
+        println("\n${sqrt(x)}, ${y * y}")
+    } else {
+        if (y > x) {
+            println("\n${sqrt(y)}, $x")
+        } else {
+            println("\nNúmeros iguais")
+        }
+    }
+
+    println()
+}
