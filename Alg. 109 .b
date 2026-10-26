@@ -1,0 +1,17 @@
+fun main() {
+    print("\nDigite o 1º nome: ")
+    val nome1 = readln()
+
+    print("\nDigite o 2º nome: ")
+    val nome2 = readln()
+
+    if (nome1.compareTo(nome2) < 0) {
+        println("\n$nome1")
+        println(nome2)
+    } else {
+        println("\n$nome2")
+        println(nome1)
+    }
+
+    println()
+}
