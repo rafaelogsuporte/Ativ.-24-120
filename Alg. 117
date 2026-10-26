@@ -1,0 +1,25 @@
+fun main() {
+    print("\nDigite o 1º número: ")
+    val a = readln().toDouble()
+
+    print("\nDigite o 2º número: ")
+    val b = readln().toDouble()
+
+    print("\nDigite o 3º número: ")
+    val c = readln().toDouble()
+
+    var maior: Double
+
+    if (a > b) {
+        maior = a
+    } else {
+        maior = b
+    }
+
+    if (c > maior) {
+        maior = c
+    }
+
+    println("\nMaior: $maior")
+    println()
+}
