@@ -1,0 +1,12 @@
+fun main() {
+    print("\nDigite um número: ")
+    val numero = readln().toInt()
+
+    if (numero % 3 == 0 && numero % 7 == 0) {
+        println("\nDivisível por 3 e por 7")
+    } else {
+        println("\nNão é divisível por 3 e por 7")
+    }
+
+    println()
+}
